@@ -14,59 +14,70 @@
       href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="./CSS/style.css" />
     <title>Frontend Mentor | Equalizer landing page</title>
   </head>
   <body>
-    <main>
-      <header>
-        <img src="./assets/logo.svg" alt="" />
+    <main class="main-container">
+      <header class="main-header">
+        <img src="./assets/logo.svg" alt="" class="company-logo" />
       </header>
-      <section>
-        <h1>We make your music sound extraordinary.</h1>
-        <p>
+      <section class="article-container">
+        <h1 class="article-heading">We make your music sound extraordinary.</h1>
+        <p class="article-text">
           A system audio equalizer specifically designed for Android and iOS.
           Freely tune the way your music sounds with a professional grade
           parametric EQ & volume mixer. Control bass, mids, treble, gain
           control, reverb, and more!
         </p>
       </section>
-      <section>
-        <div>
+      <section class="background-container">
+        <div class="app-container">
           <img
             src="./assets/illustration-app.png"
             alt="app image with smartphone"
           />
         </div>
-        <article>
-          <h2>Premium EQ</h2>
-          <p>
+        <article class="card-container">
+          <h2 class="card-heading">Premium EQ</h2>
+          <p class="card-text">
             Get expert-level control with a robust equalizer, volume mixer, and
             spatial audio. Take your listening experience to a whole new level
             and access all our incredible features!
           </p>
-          <p>$4 <span>/ month</span></p>
-          <button>iOS Download</button>
-          <button>Android Download</button>
+          <div class="price-container">
+            <p class="price-text">$4 <span></span></p>
+            <p>/ month</p>
+          </div>
+          <button class="ios-btn">iOS Download</button>
+          <button class="android-btn">Android Download</button>
         </article>
       </section>
-      <footer>
-        <img src="./assets/logo.svg" alt="logo of aqualizer" />
-        <article>
-          <p>
+      <footer class="main-footer">
+        <img
+          src="./assets/logo.svg"
+          alt="logo of aqualizer"
+          class="company-logo footer-logo"
+        />
+        <article class="footer-article">
+          <p class="footer-article__text">
             All rights reserved © Equalizer 2021 Have any problems? Contact us
             via social media or email us at
           </p>
           <address>equalizer@example.com</address>
         </article>
         <ul class="social-list">
-          <li class="social-list__item">
+          <li class="social-list__item item-1">
             <i class="fa fa-facebook-official"></i>
           </li>
-          <li class="social-list__item">
+          <li class="social-list__item item-2">
             <i class="fa fa-instagram"></i>
           </li>
-          <li class="social-list__item">
+          <li class="social-list__item item-2">
             <i class="fa fa-twitter"></i>
           </li>
         </ul>
