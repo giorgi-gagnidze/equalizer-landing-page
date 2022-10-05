@@ -1,0 +1,23 @@
+/* CSS style reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main Colors */
+
+:root {
+  --66E2DC: rgb(102, 226, 220);
+  --FA7453: rgb(250, 116, 83);
+  --FFB964: rgb(255, 185, 100);
+  --FCFAF9: rgb(252, 250, 249);
+  --191826: rgb(25, 24, 38);
+}
+
+/* Main styles */
+
+body {
+  font-family: "IBM Plex Sans", Verdana;
+}
