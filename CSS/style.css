@@ -29,49 +29,49 @@ body {
 /* Header */
 
 .main-container {
-  max-width: 375px;
+  max-width: 23.4375rem;
 }
 
 .main-header {
-  padding: 40px 205px 0 24px;
-  margin-bottom: 64px;
+  padding: 2.5rem 12.8125rem 0 1.5rem;
+  margin-bottom: 4rem;
 }
 
 .main-logo {
-  width: 146px;
-  height: 32px;
+  width: 9.125rem;
+  height: 2rem;
 }
 
 /* Article */
 
 .article-container {
-  padding: 0 24px;
-  margin-bottom: 166px;
+  padding: 0 1.5rem;
+  margin-bottom: 10.375rem;
 }
 
 .article-heading {
   font-weight: 700;
-  font-size: 40px;
-  line-height: 48px;
-  letter-spacing: -0.454545px;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  letter-spacing: -0.0284rem;
   color: var(--191826);
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 .article-text {
   font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 1rem;
+  line-height: 1.625rem;
   color: var(--191826);
 }
 
 /* Application and card */
 
 .app-container {
-  width: 209px;
-  height: 430px;
-  margin-left: 81px;
-  margin-top: 524px;
+  width: 13.0625rem;
+  height: 26.875rem;
+  margin-left: 5.0625rem;
+  margin-top: 32.75rem;
   position: absolute;
   top: 0;
 }
@@ -85,76 +85,76 @@ body {
   background-image: url(../assets/bg-pattern-1.svg);
   background-repeat: no-repeat;
   background-position: center, top;
-  border-radius: 12px;
-  max-width: 375px;
-  height: 600px;
-  margin-bottom: 390px;
+  border-radius: 0.75rem;
+  max-width: 23.4375rem;
+  height: 37.5rem;
+  margin-bottom: 24.375rem;
 }
 
 .card-container {
-  max-width: 375px;
-  height: 546px;
+  max-width: 23.4375rem;
+  height: 34.125rem;
   background-color: var(--FA7453);
-  border-radius: 12px;
-  padding: 48px 37px;
+  border-radius: 0.75rem;
+  padding: 3rem 2.3125rem;
   position: absolute;
   top: 0;
-  margin-top: 1002px;
+  margin-top: 62.625rem;
 }
 
 .card-heading {
   font-weight: 700;
-  font-size: 32px;
-  line-height: 40px;
+  font-size: 2rem;
+  line-height: 2.5rem;
   color: var(--FCFAF9);
-  margin-bottom: 12px;
+  margin-bottom: 0.75rem;
 }
 
 .card-text {
   font-weight: 400;
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
   color: var(--FCFAF9);
-  margin-bottom: 36px;
+  margin-bottom: 2.25rem;
 }
 
 .price-container {
   display: flex;
-  margin-bottom: 32px;
+  margin-bottom: 2rem;
 }
 
 .price-container p:nth-child(2) {
   align-self: center;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 32px;
-  letter-spacing: -0.2px;
+  font-size: 1.25rem;
+  line-height: 2rem;
+  letter-spacing: -0.0125rem;
   color: var(--FCFAF9);
 }
 
 .price-text {
   font-weight: 700;
-  font-size: 65px;
-  line-height: 52px;
+  font-size: 4.0625rem;
+  line-height: 3.25rem;
   color: var(--FCFAF9);
-  margin-right: 16px;
+  margin-right: 1rem;
 }
 
 .ios-btn {
   display: block;
   border: none;
-  border-radius: 12px;
+  border-radius: 0.75rem;
   background-color: var(--191826);
-  width: 296px;
-  height: 61px;
+  width: 18.5rem;
+  height: 3.8125rem;
   font-weight: 700;
-  font-size: 18px;
-  line-height: 32px;
+  font-size: 1.125rem;
+  line-height: 2rem;
   text-align: center;
-  letter-spacing: -0.18px;
+  letter-spacing: -0.0112rem;
   color: var(--FCFAF9);
-  margin-bottom: 16px;
-  margin-left: 5px;
+  margin-bottom: 1rem;
+  margin-left: 0.3125rem;
 }
 
 .ios-btn:hover {
@@ -165,17 +165,17 @@ body {
 .android-btn {
   display: block;
   border: none;
-  border-radius: 12px;
+  border-radius: 0.75rem;
   background-color: var(--FCFAF9);
-  width: 296px;
-  height: 61px;
+  width: 18.5rem;
+  height: 3.8125rem;
   font-weight: 700;
-  font-size: 18px;
-  line-height: 32px;
+  font-size: 1.125rem;
+  line-height: 2rem;
   text-align: center;
-  letter-spacing: -0.18px;
+  letter-spacing: -0.0112rem;
   color: var(--191826);
-  margin-left: 5px;
+  margin-left: 0.3125rem;
 }
 
 .android-btn:hover {
@@ -186,31 +186,31 @@ body {
 /* Footer */
 
 .main-footer {
-  padding: 0 24px 82px 24px;
+  padding: 0 1.5rem 5.125rem 1.5rem;
 }
 
 .footer-logo {
-  margin-bottom: 32px;
+  margin-bottom: 2rem;
 }
 
 .footer-article__text {
   font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 1rem;
+  line-height: 1.625rem;
   color: var(--191826);
 }
 
 .footer-article span {
   font-style: normal;
   font-weight: bold;
-  margin-bottom: 64px;
+  margin-bottom: 4rem;
 }
 
 .social-list {
   list-style: none;
   display: flex;
   color: var(--191826);
-  font-size: 22px;
+  font-size: 1.375rem;
 }
 
 .social-list__item:hover {
@@ -220,73 +220,73 @@ body {
 
 .item-1,
 .item-2 {
-  margin-right: 20px;
+  margin-right: 1.25rem;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 48rem) {
   body {
     background-image: url(../assets/bg-main-tablet.png);
   }
 
   .main-container {
-    max-width: 768px;
+    max-width: 48rem;
     background-image: url(../assets/bg-pattern-1.svg);
     background-repeat: no-repeat;
-    background-position: top -32px right -36px;
-    background-size: 266px 400px;
+    background-position: top -2rem right -2.25rem;
+    background-size: 16.625rem 25rem;
   }
 
   .main-header {
-    padding: 62px 583px 0 40px;
-    margin-bottom: 64px;
+    padding: 3.875rem 36.4375rem 0 2.5rem;
+    margin-bottom: 4rem;
   }
 
   .article-container {
-    padding: 0 209px 0 40px;
+    padding: 0 13.0625rem 0 2.5rem;
   }
 
   .article-heading {
     font-weight: 700;
-    font-size: 64px;
-    line-height: 64px;
-    letter-spacing: -0.727273px;
+    font-size: 4rem;
+    line-height: 4rem;
+    letter-spacing: -0.0455rem;
   }
 
   .article-text {
     font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 
   .app-container {
-    width: 270px;
-    height: 556px;
-    margin-left: 97px;
-    margin-top: 632px;
+    width: 16.875rem;
+    height: 34.75rem;
+    margin-left: 6.0625rem;
+    margin-top: 39.5rem;
     position: absolute;
     top: 0;
   }
 
   .background-container {
     background-position: center;
-    border-radius: 12px;
-    max-width: 696px;
-    margin-bottom: 100px;
-    margin: 249px 39px 0 33px;
+    border-radius: 0.75rem;
+    max-width: 43.5rem;
+    margin-bottom: 6.25rem;
+    margin: 15.5625rem 2.4375rem 0 2.0625rem;
   }
 
   .card-container {
-    max-width: 399px;
-    height: 546px;
-    margin-top: 920px;
-    margin-left: 272px;
+    max-width: 24.9375rem;
+    height: 34.125rem;
+    margin-top: 57.5rem;
+    margin-left: 17rem;
   }
 
   .main-footer {
-    margin-top: 183px;
+    margin-top: 11.4375rem;
     display: flex;
     flex-direction: column;
-    padding: 0 39px 85px 34px;
+    padding: 0 2.4375rem 5.3125rem 2.125rem;
   }
 
   .main-footer div {
@@ -295,70 +295,70 @@ body {
   }
 
   .footer-article span {
-    margin-bottom: 0px;
+    margin-bottom: 0rem;
   }
 
   .footer-article__text {
-    margin-right: 230px;
+    margin-right: 14.375rem;
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 75rem) {
   body {
     background-image: url(../assets/bg-main-desktop.png);
   }
 
   .main-container {
-    max-width: 1440px;
+    max-width: 90rem;
     background-image: url(../assets/bg-pattern-1.svg);
-    background-position: top -40px right 0px;
-    background-size: 312px 468px;
+    background-position: top -2.5rem right 0rem;
+    background-size: 19.5rem 29.25rem;
   }
 
   .main-header {
-    padding: 62px 1128px 0 166px;
-    margin-bottom: 64px;
+    padding: 3.875rem 70.5rem 0 10.375rem;
+    margin-bottom: 4rem;
   }
 
   .article-container {
-    padding: 0 260px 0 165px;
+    padding: 0 16.25rem 0 10.3125rem;
   }
 
   .article-heading {
     font-weight: 700;
-    font-size: 88px;
-    line-height: 88px;
-    letter-spacing: -1px;
+    font-size: 5.5rem;
+    line-height: 5.5rem;
+    letter-spacing: -0.0625rem;
   }
 
   .article-text {
     font-weight: 400;
-    font-size: 20px;
-    line-height: 34px;
-    margin-right: 190px;
+    font-size: 1.25rem;
+    line-height: 2.125rem;
+    margin-right: 11.875rem;
   }
 
   .app-container {
-    width: 312px;
-    height: 642px;
-    margin-left: 97px;
-    margin-top: 647px;
+    width: 19.5rem;
+    height: 40.125rem;
+    margin-left: 6.0625rem;
+    margin-top: 40.4375rem;
     position: absolute;
     top: 0;
   }
 
   .background-container {
-    max-width: 1110px;
-    margin-bottom: 100px;
-    margin: 341px 165px 0 165px;
+    max-width: 69.375rem;
+    margin-bottom: 6.25rem;
+    margin: 21.3125rem 10.3125rem 0 10.3125rem;
   }
 
   .card-container {
-    width: 446px;
-    height: 625px;
-    margin-top: 950px;
-    margin-left: 570px;
-    padding: 58px 59px 48px 54px;
+    width: 27.875rem;
+    height: 39.0625rem;
+    margin-top: 59.375rem;
+    margin-left: 35.625rem;
+    padding: 3.625rem 3.6875rem 3rem 3.375rem;
   }
 
   .ios-btn {
@@ -370,23 +370,23 @@ body {
   }
 
   .main-footer {
-    margin-top: 262px;
+    margin-top: 16.375rem;
     display: flex;
     flex-direction: row;
-    padding: 0 165px 91px 165px;
+    padding: 0 10.3125rem 5.6875rem 10.3125rem;
   }
 
   .main-footer div {
     display: flex;
     align-items: center;
-    margin-left: 138px;
+    margin-left: 8.625rem;
   }
 
   .footer-article span {
-    margin-bottom: 0px;
+    margin-bottom: 0rem;
   }
 
   .footer-article__text {
-    margin-right: 359px;
+    margin-right: 22.4375rem;
   }
 }
