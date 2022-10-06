@@ -200,7 +200,7 @@ body {
   color: var(--191826);
 }
 
-.footer-article address {
+.footer-article span {
   font-style: normal;
   font-weight: bold;
   margin-bottom: 64px;
@@ -221,4 +221,172 @@ body {
 .item-1,
 .item-2 {
   margin-right: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background-image: url(../assets/bg-main-tablet.png);
+  }
+
+  .main-container {
+    max-width: 768px;
+    background-image: url(../assets/bg-pattern-1.svg);
+    background-repeat: no-repeat;
+    background-position: top -32px right -36px;
+    background-size: 266px 400px;
+  }
+
+  .main-header {
+    padding: 62px 583px 0 40px;
+    margin-bottom: 64px;
+  }
+
+  .article-container {
+    padding: 0 209px 0 40px;
+  }
+
+  .article-heading {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    letter-spacing: -0.727273px;
+  }
+
+  .article-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .app-container {
+    width: 270px;
+    height: 556px;
+    margin-left: 97px;
+    margin-top: 632px;
+    position: absolute;
+    top: 0;
+  }
+
+  .background-container {
+    background-position: center;
+    border-radius: 12px;
+    max-width: 696px;
+    margin-bottom: 100px;
+    margin: 249px 39px 0 33px;
+  }
+
+  .card-container {
+    max-width: 399px;
+    height: 546px;
+    margin-top: 920px;
+    margin-left: 272px;
+  }
+
+  .main-footer {
+    margin-top: 183px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 39px 85px 34px;
+  }
+
+  .main-footer div {
+    display: flex;
+    align-items: center;
+  }
+
+  .footer-article span {
+    margin-bottom: 0px;
+  }
+
+  .footer-article__text {
+    margin-right: 230px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    background-image: url(../assets/bg-main-desktop.png);
+  }
+
+  .main-container {
+    max-width: 1440px;
+    background-image: url(../assets/bg-pattern-1.svg);
+    background-position: top -40px right 0px;
+    background-size: 312px 468px;
+  }
+
+  .main-header {
+    padding: 62px 1128px 0 166px;
+    margin-bottom: 64px;
+  }
+
+  .article-container {
+    padding: 0 260px 0 165px;
+  }
+
+  .article-heading {
+    font-weight: 700;
+    font-size: 88px;
+    line-height: 88px;
+    letter-spacing: -1px;
+  }
+
+  .article-text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    margin-right: 190px;
+  }
+
+  .app-container {
+    width: 312px;
+    height: 642px;
+    margin-left: 97px;
+    margin-top: 647px;
+    position: absolute;
+    top: 0;
+  }
+
+  .background-container {
+    max-width: 1110px;
+    margin-bottom: 100px;
+    margin: 341px 165px 0 165px;
+  }
+
+  .card-container {
+    width: 446px;
+    height: 625px;
+    margin-top: 950px;
+    margin-left: 570px;
+    padding: 58px 59px 48px 54px;
+  }
+
+  .ios-btn {
+    margin-left: 0;
+  }
+
+  .android-btn {
+    margin-left: 0;
+  }
+
+  .main-footer {
+    margin-top: 262px;
+    display: flex;
+    flex-direction: row;
+    padding: 0 165px 91px 165px;
+  }
+
+  .main-footer div {
+    display: flex;
+    align-items: center;
+    margin-left: 138px;
+  }
+
+  .footer-article span {
+    margin-bottom: 0px;
+  }
+
+  .footer-article__text {
+    margin-right: 359px;
+  }
 }
